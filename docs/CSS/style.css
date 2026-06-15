@@ -1055,23 +1055,21 @@
         transform: scale(1.06);
     }
 
-    /* CLICKABLE GALLERY CARDS */
+   /* CLICKABLE GALLERY CARDS */
 .gallery-link {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
     display: block;
 }
 
+/* Remove ALL link states */
+.gallery-link:link,
 .gallery-link:visited,
 .gallery-link:hover,
 .gallery-link:active,
 .gallery-link:focus {
-    text-decoration: none;
-    color: inherit;
-}
-
-.gallery-link .gallery-item {
-    height: 100%;
+    text-decoration: none !important;
+    color: inherit !important;
 }
     
 
